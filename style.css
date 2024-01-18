@@ -1,0 +1,178 @@
+
+    .grid-container {
+      padding: 3%;
+      color: white;
+      font-size: 15px;
+      display: flex;
+
+      width: 90%;
+      height: 60vh;
+    }
+
+    .grid-container1 {
+      margin-left: 1%;
+      margin-top: 1%;
+
+      color: white;
+      font-size: 15px;
+      width: 23%;
+      height: 60vh;
+    }
+    .grid-container2 {
+      background: red;
+      height: 64vh;
+    }
+
+    .item5 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .grid-container > div {
+      border-radius: 5%;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      /* padding: 12px 0; */
+    }
+    .items-container {
+      display: flex;
+      flex-wrap: wrap;
+      height: 46vh;
+      width: 92%;
+      justify-content: center;
+      background-color: rgb(35, 37, 43);
+    }
+    .item1 {
+      display: flex;
+      justify-content: center;
+      height: 17vh;
+      width: 40%;
+      background-color: rgb(245, 71, 71);
+      margin: 2%;
+      border-radius: 8px;
+    }
+
+    .item2 {
+      display: flex;
+      justify-content: center;
+      height: 17vh;
+      width: 90%;
+      background-color: rgb(35, 37, 43);
+      margin: 2%;
+      border-radius: 8px;
+    }
+
+    .item3 {
+      display: flex;
+      justify-content: center;
+
+      width: 25%;
+      margin: 4%;
+    }
+
+    .item4 {
+      display: flex;
+      justify-content: center;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      background-color: rgb(245, 96, 66);
+      height: 17vh;
+    }
+    .item8 {
+      display: flex;
+      justify-content: center;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      background-color: white;
+      height: 17vh;
+    }
+    .item6 {
+      display: flex;
+      justify-content: space-around;
+    }
+    .item7 {
+      width: 99vw;
+      height: 80vh;
+    }
+
+    #RemoveListnumber {
+      list-style: none;
+    }
+
+    .item-container1 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+.book-item{    
+  width: 22vw;
+  /* min-width: 30vw; */
+  height: 69vh
+
+}
+    .survey {
+      height: 21vh;
+      width: 91%;
+      background-color: white;
+      margin: 5%;
+      border-radius: 4%;
+    }
+    .Account {
+      height: 25vh;
+      width: 91%;
+      background-color: white;
+      margin: 5%;
+      border-radius: 4%;
+    }
+    .Favorites {
+      height: 35vh;
+      width: 91%;
+      background-color: rgb(65, 67, 200);
+      margin: 5%;
+      border-radius: 4%;
+    }
+    .dot1 {
+      height: 70px;
+      width: 62px;
+      background-color: rgb(45, 134, 203);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot2 {
+      height: 40px;
+      width: 30px;
+      background-color: rgb(221, 145, 45);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot3 {
+      height: 20px;
+      width: 25px;
+      background-color: rgb(65, 165, 58);
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .dot4 {
+      height: 20px;
+      width: 17px;
+      background-color: rgb(50, 60, 67);
+      border-radius: 50%;
+      display: inline-block;
+    }
+    td {
+      border-style: dotted;
+    }
+    p.ridge {
+      border-style: ridge;
+    }
+
+    @media only screen and (max-width: 1250px) {
+      .grid-container {display: flex; flex-wrap: wrap;}
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 750px) {
+      .grid-container {display: flex; flex-wrap: wrap;}
+    }
